@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-areas: 
+        "topo topo"
+        "menu banner"
+        "menu conteudo"
+        "rodape rodape"
+    ;
+}
+
+.topo{
+    grid-area: topo;
+}
+
+.menu{
+    grid-area: menu;
+}
+
+.banner{
+    grid-area: banner;
+}
+
+.conteudo{
+    grid-area: conteudo;
+}
+
+.rodape{
+    grid-area: rodape;
+}
+
+
